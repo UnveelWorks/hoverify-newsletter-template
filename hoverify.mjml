@@ -1,0 +1,274 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css2?family=Nunito"
+    />
+
+    <mj-attributes>
+      <mj-section padding="0px" background-color="#000" />
+
+      <mj-text
+        font-family="Nunito, sans-serif"
+        align="center"
+        font-size="18px"
+        font-weight="400"
+        line-height="24px"
+        color="#fff"
+        padding="0px"
+        padding-top="5px"
+      />
+
+      <mj-class
+        name="changelog-head"
+        font-weight="700"
+        font-size="20px"
+        align="center"
+        color="#121212"
+      />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ccc">
+    <!-- Header -->
+    <mj-section background-color="#121212">
+      <mj-column padding="10px">
+        <mj-image
+          href="https://www.tryhoverify.com/"
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877645/hoverify/light-logo_af6efq.png"
+          alt="Hoverify"
+          width="125px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro -->
+    <mj-section background-color="#1b1c1d">
+      <mj-column padding="20px">
+        <mj-text align="left">
+          <p style="font-size: 18px; font-weight: 600">Hey Himanshu,</p>
+
+          <p style="font-size: 16px">Hope you're staying healthy.</p>
+
+          <p style="font-size: 14px">
+            With the latest update of Hoverify, we are
+            <strong>changing</strong> the way you log into the dashboard. From
+            the beginning, the dashboard used an email authentication system
+            which had a higher failure rate. So we are shifting to
+            <em>password authentication</em>.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Update -->
+    <mj-section background-color="#121212" padding="20px">
+      <mj-column>
+        <mj-text align="left">
+          <h5>How to set your password-</h5>
+
+          <ol style="font-size: 16px">
+            <li>
+              <p>
+                Visit
+                <a href="https://rear.tryhoverify.com/dashboard">dashboard</a>.
+              </p>
+            </li>
+
+            <li style="margin-top: -8px">
+              <p>
+                Click on "Forgot password". Please log out if already logged in.
+              </p>
+            </li>
+
+            <li style="margin-top: -8px">
+              <p>
+                Enter your registered email address. You'll receive an email
+                with a password reset link.
+              </p>
+            </li>
+          </ol>
+
+          <p style="font-size: 14px; line-height: 19px">
+            Please <strong>let us know</strong> if you face any issues at
+            <a href="mailto:tryhoverify@gmail.com">tryhoverify@gmail.com</a>.
+            We'll try to get back to you as soon as possible.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Changelog -->
+
+    <mj-section background-color="#fff" padding="20px 0">
+      <mj-column>
+        <mj-text padding="20px 20px 0" color="#121212">
+          <span style="font-weight: 600">Introducing</span>
+          <p style="display: inline-block">
+            <span style="font-weight: 600">Hoverify 3.0.60</span>
+          </p>
+        </mj-text>
+
+        <mj-text padding="0 20px" mj-class="changelog-head" padding-top="60px">
+          Inspector: Copy unique selector
+        </mj-text>
+
+        <mj-text color="#121212" font-size="14px" padding="0 20px">
+          In the docked window, you can copy the unique selector of the element.
+        </mj-text>
+
+        <mj-image
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877646/hoverify/inspector_g1ltkf.png"
+          alt="Inspector"
+        />
+
+        <mj-text padding="0 20px" mj-class="changelog-head" padding-top="60px">
+          Added Screenshots to Firefox
+        </mj-text>
+
+        <mj-text color="#121212" font-size="14px" padding="0 20px">
+          Now you can take screenshots in Firefox. Support is new, so that it
+          may be unstable. Please feel free to if find any issues.
+        </mj-text>
+
+        <mj-image
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877647/hoverify/screenshots_ylpizf.gif"
+          alt="screenshots"
+        />
+
+        <mj-text padding="0 20px" mj-class="changelog-head" padding-top="60px">
+          Tooltips in Inspector
+        </mj-text>
+
+        <mj-text color="#121212" font-size="14px" padding="0 20px">
+          Added some basic tooltips in the inspector toolbar to better inform
+          users about the features.
+        </mj-text>
+
+        <mj-image
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877646/hoverify/tooltips_tknwrl.png"
+          alt="tooltips"
+        />
+
+        <mj-text padding="0 20px" mj-class="changelog-head" padding-top="60px">
+          Inspector: List and show styles of searched elements.
+        </mj-text>
+
+        <mj-text color="#121212" font-size="14px" padding="0 20px">
+          Searching elements will now list the result, and you will be able to
+          see their styles by clicking "Show styles".
+        </mj-text>
+
+        <mj-image
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877646/hoverify/search_fgsq3q.gif"
+          alt="search"
+        />
+
+        <mj-text padding="0 20px" mj-class="changelog-head" padding-top="60px">
+          Screenshots: Optimized "Save as PDF"
+        </mj-text>
+
+        <mj-text color="#121212" font-size="14px" padding="0 20px">
+          Saving as PDF sometimes hangs the browser and generates large PDF
+          files. PDFs generated now are much smaller and optimized.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Fixes -->
+    <mj-section background-color="#121212" padding="20px">
+      <mj-column>
+        <mj-text align="left">
+          <h5>Bug fixes</h5>
+
+          <ul style="font-size: 16px">
+            <li>
+              <p>
+                Color Eyedropper: Docked windows do not change color when docked
+                rapidly.
+              </p>
+            </li>
+
+            <li style="margin-top: -8px">
+              <p>Assets: SVGs are not converted to JPG.</p>
+            </li>
+
+            <li style="margin-top: -8px">
+              <p>Assets: Files bigger than 1MB are sorted properly.</p>
+            </li>
+
+            <li style="margin-top: -8px">
+              <p>Some minor bug fixes and performance improvements.</p>
+            </li>
+          </ul>
+
+          <h6 style="font-size: 14px; line-height: 15px">
+            That's all for now!
+          </h6>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footnotes -->
+    <mj-section padding="20px" background-color="#1b1c1d">
+      <mj-column>
+        <mj-text align="left">
+          <h4>Footnotes</h4>
+
+          <h6 style="margin-top: -4px; font-size: 14px">
+            <a href="https://headwayapp.co/tryhoverify-changelog"
+              >Full Changelog</a
+            >
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px; font-size: 14px">
+            I would really appreciate your review on
+            <a
+              href="https://chrome.google.com/webstore/detail/hoverify/bbpokcagpggnekcmamgdieebhpkjmljm"
+              >Chrome</a
+            >
+            and
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/hoverify/"
+              >Firefox</a
+            >
+            Store.
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">
+            <a href="https://app.archbee.io/public/Iq1iGg57cp410rD7OD5qL"
+              >Knowledge Base (WIP)</a
+            >
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">
+            <a href="https://discord.gg/4AjK5GT69v">Discord Channel</a>
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">
+            If you have any question or want to report a bug, please email at
+            <a href="mailto:tryhoverify@gmail.com">tryhoverify@gmail.com</a> or
+            DM on twitter <a href="https://twitter.com/hov3rify">@hov3rify</a>.
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">Have a nice day!</h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">Regards Himanshu</h6>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Unsubscribe -->
+    <mj-section background-color="#fff" padding="0 20px">
+      <mj-column>
+        <mj-text color="#242424">
+          <p style="font-size: 12px; line-height: 18px">
+            Your are recieving this mail because you purchased Hoverify. Please
+            <a href="https://rear.tryhoverify.com/unsubscribe?sid=xyz"
+              >unsubscribe</a
+            >
+            if you dont't want to recieve any update or promotional mails.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
