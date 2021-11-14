@@ -1,0 +1,1 @@
+# hoverify-newsletter-template
