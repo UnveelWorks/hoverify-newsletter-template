@@ -1,0 +1,126 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css2?family=Nunito"
+    />
+
+    <mj-attributes>
+      <mj-section padding="0px" background-color="#191f39" />
+
+      <mj-text
+        font-family="Nunito, sans-serif"
+        align="center"
+        font-size="18px"
+        font-weight="400"
+        line-height="24px"
+        color="#fff"
+        padding="0px"
+        padding-top="5px"
+      />
+
+      <!-- <mj-class name="deal-bg" back /> -->
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#191f39">
+    <!-- Header -->
+    <mj-section background-color="#10151D">
+      <mj-column padding="10px">
+        <mj-image
+          href="https://www.tryhoverify.com/"
+          src="https://res.cloudinary.com/sankha/image/upload/v1636877645/hoverify/light-logo_af6efq.png"
+          alt="Hoverify"
+          width="125px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro -->
+    <mj-section background-color="#222D3E">
+      <mj-column padding="20px">
+        <mj-text align="left">
+          <p style="font-size: 18px; font-weight: 600">Hey Himanshu,</p>
+
+          <p style="font-size: 16px">Hope you're staying healthy.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--  -->
+
+    <!-- Update -->
+    <mj-section background-color="#10151D">
+      <mj-column>
+        <mj-text>
+          <a href="https://www.tryhoverify.com/#pricing">
+            <img
+              style="width: 100%"
+              src="https://res.cloudinary.com/sankha/image/upload/v1640113283/hoverify/christmas-draft-5_u6bgey.png"
+              alt="Christmas Deal"
+            />
+          </a>
+        </mj-text>
+      </mj-column=>
+    </mj-section>
+    <mj-section background-color="#222D3E" padding="20px">
+      <mj-column>
+        <mj-text align="center">
+          <p style="font-size: 14px; line-height: 19px; font-weight: light">
+            Please <strong>let us know</strong> if you face any issues at
+            <a
+              style="color: #fff; font-weight: bold"
+              href="mailto:tryhoverify@gmail.com"
+              >tryhoverify@gmail.com</a
+            >. We'll try to get back to you as soon as possible.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footnotes -->
+    <mj-section padding="20px" background-color="#10151D">
+      <mj-column>
+        <mj-text align="left">
+          <!-- <h4>Footnotes</h4> -->
+
+          <h6 style="margin-top: 10px; font-size: 14px; font-size: 14px">
+            I would really appreciate your review on
+            <a
+              style="color: #1e89e4"
+              href="https://chrome.google.com/webstore/detail/hoverify/bbpokcagpggnekcmamgdieebhpkjmljm"
+              >Chrome</a
+            >
+            and
+            <a
+              style="color: #1e89e4"
+              href="https://addons.mozilla.org/en-US/firefox/addon/hoverify/"
+              >Firefox</a
+            >
+            Store.
+          </h6>
+
+          <h6 style="margin-top: -16px; font-size: 14px">Have a nice day!</h6>
+
+          <h6 style="margin-top: -16px; margin-bottom: 5px; font-size: 14px">
+            Regards, Himanshu.
+          </h6>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Unsubscribe -->
+    <mj-section background-color="#fff" padding="0 20px">
+      <mj-column>
+        <mj-text color="#242424">
+          <p style="font-size: 12px; line-height: 18px">
+            Your are recieving this mail because you purchased Hoverify. Please
+            <a href="https://rear.tryhoverify.com/unsubscribe?sid=xyz"
+              >unsubscribe</a
+            >
+            if you dont't want to recieve any update or promotional mails.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
